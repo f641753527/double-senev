@@ -10,7 +10,6 @@
                     />
                 </div>
             </div>
-            <audio style="display: none;" autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="/static/Psycho.mp3"/>
         </div>
     </div>
 </template>
