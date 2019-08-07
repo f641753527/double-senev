@@ -69,27 +69,27 @@ export default {
 }
 </script>
 
-<style lang='scss'>
+<style lang='css'>
 .body{
     box-sizing: border-box;
     min-height: calc(100vh - 1.2rem);
     background: url('../../../static/bg.jpg') no-repeat center center;
     background-size: cover;
-    .box{
-        margin: 0 auto;
-        margin-top: 3.2rem;
-        box-sizing: border-box;
-        width: 5rem;
-        height: 5rem;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: center;
-        overflow: hidden;
-        .btn { // 使用自定义类 不能用scope
-            width: 1.2rem !important;
-            top: 50% !important;
-            transform: translate(-50%, -50%) !important;
-        }
-    }
 }
+.box{
+    margin: 0 auto;
+    margin-top: 3.2rem;
+    box-sizing: border-box;
+    width: 5rem;
+    height: 5rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    overflow: hidden;
+    }
+    .btn {
+        width: 1.2rem !important;
+        top: 50% !important;
+        transform: translate(-50%, -50%) !important;
+    }
 </style>
